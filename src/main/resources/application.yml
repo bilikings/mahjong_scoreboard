@@ -1,0 +1,21 @@
+# 应用名称
+spring:
+  application:
+    name: scoreboard
+  redis:
+    database: 0
+    host: 106.52.36.28
+    port: 6379
+    jedis:
+      pool:
+        max-active: 200
+        max-wait: -1
+    lettuce:
+      shutdown-timeout: 1000
+# 应用服务 WEB 访问端口
+server:
+  port: 9797
+
+
+
+
