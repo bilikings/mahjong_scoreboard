@@ -161,4 +161,10 @@ public class RedisUtil {
         }
         return redisTemplate.opsForValue().increment(key, -delta);
     }
+
+    //=========================hash==============================//
+    /**
+     *  应该用jedis的，后悔
+     */
+
 }
