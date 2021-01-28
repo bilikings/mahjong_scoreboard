@@ -18,7 +18,7 @@ public class Gamer {
 
     private String info;
 
-    private Integer point;
+    private Double point;
 
     private Boolean isBanker;
 

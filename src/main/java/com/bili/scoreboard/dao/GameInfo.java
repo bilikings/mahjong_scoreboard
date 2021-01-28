@@ -23,5 +23,10 @@ public class GameInfo {
 
     private Integer gameState;
 
+    /**
+     *  公有点棒
+     */
+    private Double publicScore;
+
     private Long version;
 }
