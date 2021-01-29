@@ -21,12 +21,20 @@ public class GameInfo {
 
     List<Gamer> gamers;
 
+    /**
+     *  是第几局了，东一东二之类的
+     */
     private Integer gameState;
 
     /**
      *  公有点棒
      */
     private Double publicScore;
+
+    /**
+     *  本场数
+     */
+    private Integer gameStateTimes;
 
     private Long version;
 }
