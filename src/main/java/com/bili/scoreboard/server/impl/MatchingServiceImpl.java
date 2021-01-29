@@ -46,7 +46,7 @@ public class MatchingServiceImpl implements MatchingService {
             List<Gamer> gamers = gameInfo.getGamers();
             //小于四个就可以添加
             if (gamers.size()<GAMER_NUMBER) {
-                final Gamer gamer = new Gamer(userInfo, 25000,
+                final Gamer gamer = new Gamer(userInfo, 25000.0,
                         false,preOperation.getRoomInfo(inputNum).getGamers().size());
                 gamers.add(gamer);
                 gameInfo.setGamers(gamers);
@@ -79,7 +79,7 @@ public class MatchingServiceImpl implements MatchingService {
         log.info("创建房间号为："+roomNum);
         //把用户信息插入
         //按进房顺序排座位,默认房主为0
-        final Gamer gamer = new Gamer(userInfo, 25000, false, 0);
+        final Gamer gamer = new Gamer(userInfo, 25000.0, false, 0);
         gameInfo.setRoomId(roomNum);
         gameInfo.setGameState(gameState);
         //把玩家放入list中

@@ -28,6 +28,7 @@ public class GameInfo {
 
     /**
      *  公有点棒
+     *
      */
     private Double publicScore;
 
