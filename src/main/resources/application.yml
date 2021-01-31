@@ -12,6 +12,13 @@ spring:
         max-wait: -1
     lettuce:
       shutdown-timeout: 1000
+
+  rabbitmq:
+    addresses: 106.52.36.28
+    port: 5672
+    password: admin
+    username: admin
+    connection-timeout: 1500
 # 应用服务 WEB 访问端口
 server:
   port: 9797
